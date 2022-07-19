@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="35.0" prefHeight="365.0" prefWidth="700.0" style="-fx-background-color: #ffff00;">
+         <children>
+            <ImageView id="imageMy1" fx:id="imageMy1" fitHeight="275.0" fitWidth="353.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/money-1080x1920-31.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="imageMy2" fx:id="imageMy2" fitHeight="275.0" fitWidth="353.0" layoutX="184.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/money-1080x1920-31.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="imageMy3" fx:id="imageMy3" fitHeight="275.0" fitWidth="353.0" layoutX="356.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/money-1080x1920-31.jpg" />
+               </image>
+            </ImageView>
+            <ImageView id="imageMy4" fx:id="imageMy4" fitHeight="275.0" fitWidth="353.0" layoutX="531.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/money-1080x1920-31.jpg" />
+               </image>
+            </ImageView>
+            <Button id="ButtonDown" fx:id="buttonDown" blendMode="SRC_ATOP" contentDisplay="CENTER" layoutX="158.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="392.0" style="-fx-background-color: #ffd700; -fx-border-radius: 10;" text="Кнопка монетизации проекта :)">
+               <font>
+                  <Font name="Modern No. 20" size="21.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="176.0" prefHeight="34.0" prefWidth="313.0" text="ГРАФИЧЕСКОЕ ПРИЛОЖЕНИЕ JAVA FX" textFill="#f0f85b">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
