@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -31,11 +33,21 @@
                   <Image url="@assets/money-1080x1920-31.jpg" />
                </image>
             </ImageView>
-            <Button id="ButtonDown" fx:id="buttonDown" blendMode="SRC_ATOP" contentDisplay="CENTER" layoutX="158.0" layoutY="312.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="392.0" style="-fx-background-color: #ffd700; -fx-border-radius: 10;" text="Кнопка монетизации проекта :)">
+            <Button id="ButtonDown" fx:id="buttonDown" blendMode="SRC_ATOP" contentDisplay="CENTER" layoutX="294.0" layoutY="306.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="392.0" style="-fx-background-color: #ffd700; -fx-border-radius: 10;" text="Кнопка монетизации проекта :)">
                <font>
                   <Font name="Modern No. 20" size="21.0" />
                </font>
             </Button>
+            <CheckBox layoutX="14.0" layoutY="308.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="121.0" text="Подписаться">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </CheckBox>
+            <TextField layoutX="150.0" layoutY="306.0" prefHeight="38.0" prefWidth="127.0" promptText="Введите сумму ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
          </children>
       </AnchorPane>
       <Label layoutX="176.0" prefHeight="34.0" prefWidth="313.0" text="ГРАФИЧЕСКОЕ ПРИЛОЖЕНИЕ JAVA FX" textFill="#f0f85b">
@@ -43,5 +55,6 @@
             <Font name="Lucida Calligraphy Italic" size="16.0" />
          </font>
       </Label>
+      <CheckBox mnemonicParsing="false" text="CheckBox" />
    </children>
 </AnchorPane>
