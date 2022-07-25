@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -11,50 +9,47 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <AnchorPane layoutY="35.0" prefHeight="365.0" prefWidth="700.0" style="-fx-background-color: #ffff00;">
+      <AnchorPane fx:id="ButtonSalat" layoutY="35.0" prefHeight="365.0" prefWidth="700.0" style="-fx-background-color: #ffff00;">
          <children>
-            <ImageView id="imageMy1" fx:id="imageMy1" fitHeight="275.0" fitWidth="353.0" layoutX="14.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="imageMy1" fx:id="imageMy1" fitHeight="148.0" fitWidth="195.0" layoutX="14.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets/money-1080x1920-31.jpg" />
+                  <Image url="@assets/SalatCheaser.jpg" />
                </image>
             </ImageView>
-            <ImageView id="imageMy2" fx:id="imageMy2" fitHeight="275.0" fitWidth="353.0" layoutX="184.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="imageMy2" fx:id="imageMy2" fitHeight="151.0" fitWidth="195.0" layoutX="239.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets/money-1080x1920-31.jpg" />
+                  <Image url="@assets/SHashlyk-iz-baraniny-po-grecheski.jpg" />
                </image>
             </ImageView>
-            <ImageView id="imageMy3" fx:id="imageMy3" fitHeight="275.0" fitWidth="353.0" layoutX="356.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="imageMy4" fx:id="imageMy3" fitHeight="138.0" fitWidth="212.0" layoutX="467.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@assets/money-1080x1920-31.jpg" />
+                  <Image url="@assets/8-napitkov-poleznyh-pri-prostude7.jpg" />
                </image>
             </ImageView>
-            <ImageView id="imageMy4" fx:id="imageMy4" fitHeight="275.0" fitWidth="353.0" layoutX="531.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@assets/money-1080x1920-31.jpg" />
-               </image>
-            </ImageView>
-            <Button id="ButtonDown" fx:id="buttonDown" blendMode="SRC_ATOP" contentDisplay="CENTER" layoutX="294.0" layoutY="306.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="392.0" style="-fx-background-color: #ffd700; -fx-border-radius: 10;" text="Кнопка монетизации проекта :)">
+            <Label alignment="TOP_CENTER" layoutX="13.0" layoutY="64.0" prefHeight="28.0" prefWidth="195.0" text="Салат цезарь" textAlignment="CENTER" textFill="#2d2f0c">
                <font>
-                  <Font name="Modern No. 20" size="21.0" />
+                  <Font name="Lucida Calligraphy Italic" size="16.0" />
                </font>
-            </Button>
-            <CheckBox layoutX="14.0" layoutY="308.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="121.0" text="Подписаться">
+            </Label>
+            <Label alignment="TOP_CENTER" layoutX="239.0" layoutY="64.0" prefHeight="28.0" prefWidth="195.0" text="Шашлык из баранины" textAlignment="CENTER" textFill="#2d2f0c">
                <font>
-                  <Font size="15.0" />
+                  <Font name="Lucida Calligraphy Italic" size="16.0" />
                </font>
-            </CheckBox>
-            <TextField layoutX="150.0" layoutY="306.0" prefHeight="38.0" prefWidth="127.0" promptText="Введите сумму ">
+            </Label>
+            <Label alignment="TOP_CENTER" layoutX="476.0" layoutY="64.0" prefHeight="28.0" prefWidth="195.0" text="Компот из сухофруктов" textAlignment="CENTER" textFill="#2d2f0c">
                <font>
-                  <Font size="15.0" />
+                  <Font name="Lucida Calligraphy Italic" size="16.0" />
                </font>
-            </TextField>
+            </Label>
+            <Button fx:id="Button1" layoutX="83.0" layoutY="261.0" mnemonicParsing="false" text="Рецепт" />
+            <Button fx:id="Button2" layoutX="309.0" layoutY="261.0" mnemonicParsing="false" text="Рецепт" />
+            <Button fx:id="Button3" layoutX="546.0" layoutY="261.0" mnemonicParsing="false" text="Рецепт" />
          </children>
       </AnchorPane>
-      <Label layoutX="176.0" prefHeight="34.0" prefWidth="313.0" text="ГРАФИЧЕСКОЕ ПРИЛОЖЕНИЕ JAVA FX" textFill="#f0f85b">
+      <Label layoutX="280.0" prefHeight="34.0" prefWidth="141.0" text="КНИГА РЕЦЕПТОВ" textFill="#f0f85b">
          <font>
             <Font name="Lucida Calligraphy Italic" size="16.0" />
          </font>
       </Label>
-      <CheckBox mnemonicParsing="false" text="CheckBox" />
    </children>
 </AnchorPane>
